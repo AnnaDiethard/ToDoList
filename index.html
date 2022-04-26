@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@200&family=Karla:wght@200&family=My+Soul&family=Open+Sans:wght@300&family=Quicksand:wght@500&family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+<!-- Шапка -->
+    <header class="header">
+        <h2>to do list</h2>
+        <nav class="nav">
+            <ul class="nav_ul">
+                <li><a class="nav_name" href = "#">Home</a></li>
+                <li><a class="nav_name" href = "#">Job</a> </li>
+                <li><a class="nav_name" href = "#">Sport</a> </li>
+                <li><a class="nav_name" href = "#">English</a></li>
+                <li><a class="nav_name" href = "#">Other</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+<div class="wrapper">
+
+
+<!-- Блок left -->
+    <aside class="aside">
+        <h4 class="aside_name">important</h4>
+        <input class="aside_text" type="text" id="important_add_task">
+        <button class="btn btn--big" id="important_add_task_btn">add</button>
+        <ul class="aside_task_list" id="important_task_list">
+            <!-- <li class="aside_task_list_item"><label><input class="aside_check" type="checkbox" name="" id="">позвонить в салон</label></li>
+            <li class="aside_task_list_item"><label><input class="aside_check" type="checkbox" name="" id="">оплатить счета</label></li>
+            <li class="aside_task_list_item"><label><input class="aside_check" type="checkbox" name="" id="">ремонт розетки</label></li> -->
+        </ul>
+        <button class="btn btn--big" type="button" id="important_done_task_btn">done</button>
+    </aside>
+    
+<!-- Блок center -->
+    <main class="main">
+        <h4 class="main_name">add case</h4>
+        <input class="main_add_task" type="text">
+        <button class="btn btn--little" id="main_add_task_btn" type="button">add</button>
+        <ul class="main_task_list">
+            
+        </ul>
+        <button class="btn btn--little" id="main_done_task_btn" type="button">done</button>
+      
+    <div class="container">
+        <div class="features">
+            <div class="features_item">
+                <img class="features_icon" src="img/img_4.png" alt="">
+                <h4 class="features_title">monthly plan</h4>
+            </div>
+            <div class="features_item">
+                <img class="features_icon" src="img/img_2.png" alt="">
+                <h4 class="features_title">menu for the week</h4>
+            </div>
+            <div class="features_item">
+                <img class="features_icon" src="img/img_5.png" alt="">
+                <h4 class="features_title">financial planning</h4>
+            </div>
+        </div>
+    </div>
+    </main>
+
+<!-- Блок right -->
+    <aside class="aside">
+        <h4 class="aside_name">shopping list</h4>
+        <input class="aside_text" type="text" id="shopping_add_task">
+        <button class="btn btn--big" type="button" id="shopping_add_task_btn">add</button>
+        <ul class="aside_task_list" id="shopping_task_list">
+            <!-- <li class="aside_task_list_item"><label><input class="aside_check" type="checkbox" name="" id="">молоко</label></li>
+            <li class="aside_task_list_item"><label><input class="aside_check" type="checkbox" name="" id="">сахар</label></li>
+            <li class="aside_task_list_item"><label><input class="aside_check" type="checkbox" name="" id="">сметана</label></li>
+            <li class="aside_task_list_item"><label><input class="aside_check" type="checkbox" name="" id="">авокадо</label></li>
+            <li class="aside_task_list_item"><label><input class="aside_check" type="checkbox" name="" id="">картошка</label></li>
+            <li class="aside_task_list_item"><label><input class="aside_check" type="checkbox" name="" id="">сливочное масло</label></li>
+            <li class="aside_task_list_item"><label><input class="aside_check" type="checkbox" name="" id="">рис</label></li> -->
+        </ul>
+        
+        <button class="btn btn--big" type="button" id="shopping_done_task_btn">done</button>
+    </aside>
+
+</div>
+
+
+<!-- Подвал -->
+
+    <footer class="footer">
+        <h5 class="footer_name">make your day cool</h5>
+    </footer>
+
+<script src="main.js"></script>
+</body>
+</html>
